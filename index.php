@@ -21,13 +21,13 @@
     <!-- Form for user input -->
     <form action="./calculations.php" method="post" target="result">
       <label for="hours">Number of hours worked</label>
-      <input type="number" id="hours-worked" placeholder="Hours worked..." name="hours-worked"><br><br>
+      <input type="float" id="hours-worked" placeholder="Hours worked..." name="hours-worked"><br><br>
       <label for="rate">Hourly rate</label>
-      <input type="number" id="hourly-rate" placeholder="Your hourly rate..." name="hourly-rate"><br><br>
+      <input type="float" id="hourly-rate" placeholder="Your hourly rate..." name="hourly-rate"><br><br>
       <input type="submit" value="Calculate">
     </form>
     <!-- Div for calculations -->
-    <iframe id="result">
+    <iframe id="result" name="result">
     </iframe>
   </body>
 </html>
