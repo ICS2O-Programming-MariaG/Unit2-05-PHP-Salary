@@ -32,13 +32,8 @@ form {
   font-family: Arial, sans-serif;
 }
 
-#calculations {
+#result {
   background-color: #fdf89c;
   color: #352a78;
   padding: 20px;
-}
-
-#orange {
-  padding: 20px;
-  background-color: #dfc6ee;
 }
